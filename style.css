@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(130, 170, 223);
+}
+
+.main-card {
+    background-color: rgb(104, 216, 179);
+    border-radius: 14px;
+    height: 500px;
+    padding: 50px;
+}
+
+.value-area {
+    display: flex;
+    justify-content: center;
+
+}
+
+input {
+    margin-right: 5px;
+    border-radius: 3px;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+.sec-btn {
+    margin-left: 4px;
+}
+
+button {
+    border-radius: 3px;
+    border: 1px black;
+    padding: 5px;
+}
+
+button:hover {
+    background-color: rgb(68, 208, 98);
+    font-weight: bold;
+    border: 1px solid black;
+}
