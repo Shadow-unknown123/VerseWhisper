@@ -1,7 +1,7 @@
 //The API used for this APP is "https://alquran.cloud/api"   `SW`
 
 function bringVerse(nm) {
-  fetch(`http://api.alquran.cloud/v1/ayah/${nm}/en.asad`)
+  fetch(`https://api.alquran.cloud/v1/ayah/${nm}/en.asad`)
     .then((resp) => resp.json())
     .then((result) => {
       const me = document.querySelector("#here");
