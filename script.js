@@ -51,7 +51,7 @@ function handleRandom() {
 
 // ---------------------------Night-sky-------------------------------------------------------
 
-for (i = 0; i < 300; i++) {
+for (i = 0; i < 500; i++) {
   let star = document.createElement("div");
   star.classList.add("star");
 
@@ -63,9 +63,9 @@ for (i = 0; i < 300; i++) {
   star.style.height = size + "px";
   //   -----------------------------------------------------------------------
 
-  let delayValue = Math.random() * 3 + 1;
+  let delayValue = Math.random() * 4 + 1;
 
   star.style.animationDelay = delayValue + "s";
 
-  document.body.appendChild(star);
+  if (window.innerWidth > 480) document.body.appendChild(star);
 }
